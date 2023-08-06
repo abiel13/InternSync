@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial: React.FC = () => {
   return (
     <div className="min-h-[70vh] bg-[#ddf0f7] items-center py-5 px-3 flex flex-col gap-8">
-      <div className="flex flex-col gap-3">
+      <div className="flex px-3 flex-col gap-3">
         <h1 className="font-normal capitalize text-3xl leading-8 tracking-wider mt-3  ">Dont just take our word for it</h1>
         <p className="text-center text-xl font-light mt-2"> Read what our clients are saying</p>
       </div>

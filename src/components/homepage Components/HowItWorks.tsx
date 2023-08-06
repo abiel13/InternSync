@@ -37,7 +37,7 @@ const HowItWorks: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center mt-[6rem] w-full px-3 py-2 ">
-      <div className="text-3xl tracking-wide leading-8 mb-3 font-medium">
+      <div className="text-3xl text-center tracking-wide leading-8 mb-3 font-medium">
         How InternSync Works
       </div>
       <p className="text-xl text-gray-600 leading-8 text-center ">
@@ -50,7 +50,7 @@ const HowItWorks: React.FC = () => {
         ))}
       </div>
       
-     <h3 className="font-bold text-3xl my-8">InternSync For Employers</h3>
+     <h3 className="font-bold text-3xl my-8 text-center">InternSync For Employers</h3>
  
       <div className="w-full block md:flex gap-8 ">
         {CardData.slice(3, 6).map((items) => (
