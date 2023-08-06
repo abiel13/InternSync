@@ -1,0 +1,6 @@
+export {default as Hero } from './homepage Components/hero'
+export {default as Navbar } from './homepage Components/Navbar'
+export {default as Sponsors } from './homepage Components/Sponsors'
+export {default as HowItWorks } from './homepage Components/HowItWorks'
+export {default as Featured } from './homepage Components/Featured'
+export {default as Testimonial } from './homepage Components/Testimonial'
