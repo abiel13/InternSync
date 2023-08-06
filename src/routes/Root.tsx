@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Hero , Sponsors , HowItWorks, Featured, Testimonial} from '../components'
+import { Navbar, Hero , Sponsors , HowItWorks, Featured, Testimonial, Cta} from '../components'
 
 
 
@@ -13,6 +13,7 @@ const Root:React.FC = () => {
     <HowItWorks />
     <Featured />
     <Testimonial />
+    <Cta />
 </div>
      
 
