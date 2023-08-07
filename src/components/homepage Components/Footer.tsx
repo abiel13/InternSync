@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
         <div className="flex flex-col gap-9 mt-4 md:flex-row md:gap-28">
-          <div className="flex flex-col mt-6 gap-9">
+          <div className="flex flex-col mt-6 md:mt-0 gap-9">
             <p className="font-medium text-3xl">Company</p>
             <li
               style={{ listStyle: "none" }}
